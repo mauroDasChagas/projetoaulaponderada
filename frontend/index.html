@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <title>Atividade em aula</title>
+    </head>
+    <body>
+        <form method="POST" action="/enviaDados">
+            <label for="msg">Escreva sua mensagem:</label>
+            <input type="text" name="msg" id="msg">
+            <button type="submit">Enviar</button>
+        </form>
+        <br>
+        <h3>Mensagens já criadas:</h3>
+        <div id="msg_criadas"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
